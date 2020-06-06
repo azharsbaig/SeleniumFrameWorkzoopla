@@ -7,8 +7,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Wait {
-//
-	// public void getExplicitWaitClicable(WebDriver driver, WebElement element) {
+//	
 	public void getExplicitWait(WebDriver driver, WebElement element) {
 		WebDriverWait obj = new WebDriverWait(driver, 10);
 		obj.until(ExpectedConditions.elementToBeClickable(element));
